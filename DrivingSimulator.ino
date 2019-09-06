@@ -13,8 +13,6 @@ void setup(){
 }
 
 void loop(){
-   
-  // Always be getting fresh data
   dataForController_t controllerData = getControllerData();
   setControllerData(controllerData);
 }
